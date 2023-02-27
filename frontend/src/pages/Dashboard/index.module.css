@@ -1,0 +1,49 @@
+.CTARow {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+}
+
+.CTARow > input {
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  width: 30%;
+}
+
+.CTARow > input:focus {
+  border: 1px solid green;
+}
+
+table {
+  width: 100%;
+}
+
+.addNewUserBtn {
+  background-color: blueviolet;
+  padding: 0.5rem;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+}
+
+#editBtn,
+#deleteBtn {
+  padding: 0.3rem;
+  margin: 0.3rem auto;
+  width: 70%;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Itim", cursive;
+}
+
+#editBtn {
+  background-color: green;
+}
+
+#deleteBtn {
+  background-color: red;
+}

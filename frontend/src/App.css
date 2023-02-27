@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+/* to remove the arrows from all number fields in the project */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
