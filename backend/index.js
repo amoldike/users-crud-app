@@ -1,9 +1,11 @@
 require("dotenv").config();
+const mongoose = require("mongoose");
 const express = require("express");
 const cors = require("cors");
 const app = express();
 const conn = require("./db");
-mongoose.set("strictQuery", true);
+
+mongoose.set("strictQuery", false);
 
 app.use(express.json());
 app.use(cors());
