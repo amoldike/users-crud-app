@@ -7,7 +7,7 @@ const conn = require("./db");
 app.use(express.json());
 app.use(cors());
 
-const PORT = process.env.PORT;
+const PORT = 5000;
 
 // -----------------------db connection--------------------------
 
